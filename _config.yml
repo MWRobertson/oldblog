@@ -1,5 +1,8 @@
 theme: jekyll-theme-hacker
 
+title: mikerobertson.info
+description: blog
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
