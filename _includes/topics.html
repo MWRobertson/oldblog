@@ -2,9 +2,9 @@
 <h2>My Interests</h2>
 <h3>Subjects that I want to learn more about</h3>
 
-<div class="d-flex flex-wrap gutter-condensed mb-4">
+<div class="flex-container">
   {% for topic in site.topics limit: 12 %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    <div class="flex-item">
       {% include topic-card.html %}
     </div>
   {% endfor %}
