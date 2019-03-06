@@ -5,5 +5,3 @@
 {% include blogposts.html %}
 
 {% include masthead.html metadata=true %}
-
-{% include topics.html %}
