@@ -11,7 +11,7 @@
 </td>
 
 {% if include.metadata %}
-<td width="65%">
+<td width="30%">
   <div style="opacity: 1">
     {% if user.name %}
       <div class="{{ metadata_styles }}">
@@ -41,6 +41,10 @@
   </div>
 </td>
 {% endif %}
+
+<td width="45%">
+   {% include topics.html %}
+</td>
 
 </tr>
 </table>
