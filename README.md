@@ -6,8 +6,6 @@
 -  [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
-### Interests
-
 {% include topics.md %}
 
 
