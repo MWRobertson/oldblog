@@ -1,3 +1,5 @@
+{% include header.md %}
+
 {% include masthead.md %}
 
 ### Blog Posts
