@@ -1,23 +1,23 @@
 {% if topic.web_url %}
-  <a href="{{ topic.web_url }}">
     {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="50" height="50" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+      <img src="{{ topic.image_url }}" width="50" height="50" style="border-radius: 50%;" alt="{{ topic.name }}">
     {% else %}
       <span
-        style="width:50px; height:50px; line-height:64px;"
+        style="width:50px; height:50px; line-height:50px;"
       >
         #
       </span>
     {% endif %}
+  <a href="{{ topic.web_url }}">
     {{ topic.name }}
   </a>
 {% else %}
   <span>
     {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="50" height="50" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+      <img src="{{ topic.image_url }}" width="50" height="50" alt="{{ topic.name }}">
     {% else %}
       <span
-        style="width:50px; height:50px; line-height:64px;"
+        style="width:50px; height:50px; line-height:50px;"
       >
         #
       </span>
