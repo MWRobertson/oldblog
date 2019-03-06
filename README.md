@@ -26,6 +26,11 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+{% for post in site.posts %}
+-  [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
