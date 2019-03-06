@@ -5,3 +5,5 @@
 {% include blogposts.html %}
 
 {% include masthead.html metadata=true %}
+
+{% include projects.html %}
