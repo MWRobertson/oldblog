@@ -12,7 +12,7 @@
     {{ topic.name }}
   </a>
 {% else %}
-  <div>
+  <span>
     {% if topic.image_url %}
       <img src="{{ topic.image_url }}" width="50" height="50" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
@@ -23,5 +23,5 @@
       </span>
     {% endif %}
     {{ topic.name }}
-  </div>
+  </span>
 {% endif %}
