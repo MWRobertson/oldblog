@@ -1,11 +1,10 @@
 
 <h2>My Interests</h2>
-<h3>Subjects that I want to learn more about</h3>
 
 <div>
   {% for topic in site.topics limit: 12 %}
-    <div>
+    <span>
       {% include topic-card.html %}
-    </div>
+    </span>
   {% endfor %}
 </div>
