@@ -1,12 +1,18 @@
 {% assign metadata_styles = 'd-md-inline-block mr-3' %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-<p class="mb-3 f4">
+<table>
+<tr>
+
+<td>
+<img src="{{ user.avatar_url }}" style="max-width: 100px;">
+<p>
   {{ user.bio }}
 </p>
+</td>
 
 {% if include.metadata %}
-  <div class="f4 mb-6" style="opacity: 1">
+<td>
+  <div style="opacity: 1">
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:white aria-label:GitHub %}
@@ -30,7 +36,11 @@
       </div>
     {% endif %}
     {% if user.hireable %}
-      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
+      <span title="Hire me">Available for hire</span>
     {% endif %}
   </div>
+</td>
 {% endif %}
+
+</tr>
+</table>

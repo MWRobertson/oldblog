@@ -2,9 +2,9 @@
 <h2>My Interests</h2>
 <h3>Subjects that I want to learn more about</h3>
 
-<div class="flex-container">
+<div>
   {% for topic in site.topics limit: 12 %}
-    <div class="flex-item">
+    <div>
       {% include topic-card.html %}
     </div>
   {% endfor %}
