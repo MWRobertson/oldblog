@@ -1,8 +1,8 @@
 <div>
   <div>
     <h4>
+      {% octicon repo height:20 class:"mr-1 v-align-middle" fill:white aria-label:repo %}
       <a href="{{ repository.html_url }}">
-        {% octicon repo height:20 class:"mr-1 v-align-middle" fill:white aria-label:repo %}
         <span>{{ repository.owner.login }} /</span>
         {{ repository.name }}
       </a>
