@@ -46,3 +46,6 @@ topics:
 
   - name: Retrowave
     web_url: https://radio.newretrowave.com/
+
+  - name: Slack
+    image_url: assets/img/bobdobbs.png
