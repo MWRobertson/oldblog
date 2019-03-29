@@ -14,3 +14,5 @@ The problem sometimes with being a Windows admin by trade is that I fall behind 
 I am finally encouraged by this week's news that Windows Server 2019 containers can take full advantage of Kubernetes, but I'll confess I have absolutely no idea what that really means in terms of real world application. Does this mean that Windows containers are now a viable solution for my app teams? Are we on par with Linux in terms of delivery ease and usage? Or will I still be jumping through extra hoops and Macguyvering fixes to achieve something that Linux admins have provided effortlessly for years now?
 
 I'm attending my first DockerCon in a month, so I hope to both learn the answers to these questions and find those answers satisfying. At the very least, I hope the swag is nice.  
+
+!("Floppy Drive Inserting into IBM")[https://media.giphy.com/media/Jd4274USmbave/giphy.gif]
