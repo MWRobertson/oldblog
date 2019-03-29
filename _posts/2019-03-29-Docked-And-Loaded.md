@@ -15,4 +15,4 @@ I am finally encouraged by this week's news that Windows Server 2019 containers 
 
 I'm attending my first DockerCon in a month, so I hope to both learn the answers to these questions and find those answers satisfying. At the very least, I hope the swag is nice.  
 
-!(Floppy Drive Inserting into IBM)[https://media.giphy.com/media/Jd4274USmbave/giphy.gif]
+![Floppy Drive Inserting into IBM](https://media.giphy.com/media/Jd4274USmbave/giphy.gif)
