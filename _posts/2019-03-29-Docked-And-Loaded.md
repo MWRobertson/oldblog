@@ -1,8 +1,8 @@
 ---
-Layout: post
-Title: "Docked and Loaded"
-Author: Mike
-Tags: tech docker windows
+layout: post
+title: "Docked and Loaded"
+author: Mike
+tags: tech docker windows
 ---
 
 I got into Docker two years ago on an Ubuntu machine at home. I went through the tutorial, pulled down a MongoDB image, and successfully spun up an empty database. It was neat. 
