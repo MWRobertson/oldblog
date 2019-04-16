@@ -21,4 +21,4 @@ So, now I'll brush the dust aside. Sigh. Feel the eyes on my back. Hear the fain
 "I thought that was done, too. Did he...forget something?"
 "Ohhh..."
 
-I sigh again. Crack my knuckles. Get back to work once more. 
+I sigh again. Crack my knuckles. Get back to work.
