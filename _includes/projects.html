@@ -1,9 +1,0 @@
-<h2>My Top Repos</h2>
-<p>A few of the GitHub repositories that I'm working on</p>
-<div>
-  {% for repository in site.github.public_repositories limit: 5 %}
-    <div>
-      {% include repo-card.html %}
-    </div>
-  {% endfor %}
-</div>
